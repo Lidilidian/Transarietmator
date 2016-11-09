@@ -43,4 +43,10 @@ note : this program default is use `administration.po` from [Bauble Project][2] 
 This program using the MIT License - https://github.com/Lidilidian/Transarietmator/blob/master/LICENSE
 
 >### Contirbuting and suggestions
-if you would like to contribute to this project, any help would be very-very helpful even if it's just a warning for a typo, and please don't be shy to contact me at ([hubungi.aja@gmail.com](mailto:hubungi.aja@gmail.com))Contirbuting and suggestions
+if you would like to contribute to this project, any help would be very-very helpful even if it's just a warning for a typo, and please don't be shy to contact me at ([hubungi.aja@gmail.com](mailto:hubungi.aja@gmail.com)).
+
+>### Thanks to
+- Allah S.W.T and My Family.
+- ([@jayvdb](https://github.com/jayvdb) - Mentor of Besutkode who always give support
+- ([@edawine](https://github.com/edawine)) & ([@chocochino](https://github.com/chocochino))- which give Me suggestion.
+- Every participant of Besutkode and of course all my Friend's in University of Muhammadiyah Jakarta
