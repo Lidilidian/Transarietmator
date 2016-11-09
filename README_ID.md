@@ -46,6 +46,7 @@ Program ini menggunakan lisensi MIT - https://github.com/steptr/MIT-License/blob
 Jika Anda ingin berkontribusi di proyek ini, Segala bentuk masukan bahkan jika hanya sekedar teguran karna kesalahan penulisan akan sangat-sangat berguna, dan jangan malu untuk bersilaturahmi dengan Saya di ([hubungi.aja@gmail.com](mailto:hubungi.aja@gmail.com))Contirbuting and suggestions
 
 >### Terima kasih kepada
+- Allah S.W.T dan Keluarga Saya.
 - ([@jayvdb](https://github.com/jayvdb) - Mentor Besutkode yang sudah membimbing
 - ([@edawine](https://github.com/edawine)) & ([@chocochino](https://github.com/chocochino))- Yang sudah memberikan masukkan-masukkan
 - Semua peserta Besutkode dan Teman-teman di Kampus Universitas Muhammadiyah Jakarta
