@@ -1,5 +1,7 @@
 # Transarietmator
 ------
+([Click Here for Indonesian Readme](https://github.com/Lidilidian/Transarietmator/README_ID.md))
+
 Python checker for Untranslated Gettext (.po) file and recommendation for the unstranslated `msgstr` tool.
 
 this program using Python v.2.7 and [Microsoft Translator Text API][1] as backend translation. when You run this program, the program will run automatically looking for untranslated `msgstr` in the po file and provide recommendation's to You on the results of translation then You can use the result for fixing your untranslated po file whether it's possible to use the weblate and pootle service or even by manual translating.
@@ -22,7 +24,7 @@ note : this program default is use `administration.po` from [Bauble Project][2] 
 - [x] json
 - [x] urllib and urlllib2
 
->### a list of which should be further developedDeveloping :
+>### a list of which should be further developed :
 
 - [x] Translate suggestion's
 - [ ] Auto detect source language
@@ -39,3 +41,6 @@ note : this program default is use `administration.po` from [Bauble Project][2] 
 
 >### License
 This program using the MIT License - https://github.com/Lidilidian/Transarietmator/blob/master/LICENSE
+
+>### Contirbuting and suggestions
+if you would like to contribute to this project, any help would be very-very helpful even if it's just a warning for a typo, and please don't be shy to contact me at ([hubungi.aja@gmail.com](mailto:hubungi.aja@gmail.com))Contirbuting and suggestions
