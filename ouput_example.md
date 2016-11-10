@@ -1,37 +1,69 @@
 ```
-arietmatika@linux-2t91:~/Transarietmator> python transariemator.py
-Insert Your source language: en
-Insert Your translation language: id
+linux-2t91:/home/arietmatika/xxx # transarietmator -i binary-app-next-gen-app-id.po -s en -t id
+Select language [en][id] : en
 
-1 Untranslated words found
-UNTRANSLATED   : Administration
-RECOMMENDATION : Administrasi
+Failure Number		: 1
+Source word's		: All
+Alleged mistranslation	: Semua
+Suggestions's		: Semua
 
-2 Untranslated words found
-UNTRANSLATED   : If you are using a real DBMS to hold your botanic data, then you need do something about database administration. While database adnimistration is far beyond the scope of this document, we make our users aware of it.
-RECOMMENDATION : Jika Anda menggunakan DBMS nyata untuk menyimpan data botanic Anda, maka Anda perlu melakukan sesuatu tentang administrasi database. Sementara database adnimistration jauh melampaui lingkup dokumen ini, kami membuat pengguna kami menyadari hal itu.
 
-3 Untranslated words found
-UNTRANSLATED   : SQLite
-RECOMMENDATION : SQLite
+Failure Number		: 2
+Source word's		: Property
+Alleged mistranslation	: Milik
+Suggestions's		: Properti
 
-4 Untranslated words found
-UNTRANSLATED   : SQLite is not what one would consider a real DBMS: each SQLite database is just in one file. Make safety copies and you will be fine. If you don't know where to look for your database files, consider that, per default, bauble puts its data in the ``~/.bauble/`` directory (in Windows it is somewhere in your ``AppData`` directory).
-RECOMMENDATION : SQLite bukanlah apa yang akan mempertimbangkan sebuah DBMS yang nyata: setiap database SQLite adalah hanya dalam satu file. Membuat salinan keamanan dan Anda akan baik-baik saja. Jika Anda tidak tahu di mana untuk mencari file database Anda, pertimbangkan bahwa, per standar, perhiasan menempatkan data dalam direktori '' ~/.bauble/'' (pada Windows itu adalah suatu tempat di direktori '' AppData'').
 
-5 Untranslated words found
-UNTRANSLATED   : MySQL
-RECOMMENDATION : MySQL
+Failure Number		: 3
+Source word's		: Value
+Alleged mistranslation	: Nilai
+Suggestions's		: Nilai
 
-6 Untranslated words found
-UNTRANSLATED   : Please refer to the official documentation.
-RECOMMENDATION : Silakan merujuk ke dokumentasi resmi.
 
-7 Untranslated words found
-UNTRANSLATED   : PostgreSQL
-RECOMMENDATION : PostgreSQL
+Failure Number		: 4
+Source word's		: Balance
+Alleged mistranslation	: Saldo
+Suggestions's		: Keseimbangan
 
-8 Untranslated words found
-UNTRANSLATED   : Please refer to the official documentation. A very thorough discussion of your backup options starts at `chapter_24`_.
-RECOMMENDATION : Silakan merujuk ke dokumentasi resmi. Diskusi yang sangat teliti mengenai pilihan cadangan dimulai pada _ 'chapter_24'.
+
+Failure Number		: 5
+Source word's		: Trade
+Alleged mistranslation	: Trade
+Suggestions's		: Perdagangan
+
+
+Failure Number		: 6
+Source word's		: Watchlist
+Alleged mistranslation	: Daftar pantauan
+Suggestions's		: Daftartonton
+
+
+Failure Number		: 7
+Source word's		: Open Positions
+Alleged mistranslation	: Kontrak Berjalan
+Suggestions's		: Posisi terbuka
+
+
+Failure Number		: 8
+Source word's		: Profit Table
+Alleged mistranslation	: Tabel Laba Rugi
+Suggestions's		: Keuntungan tabel
+
+
+Failure Number		: 9
+Source word's		: Statement
+Alleged mistranslation	: Pernyataan
+Suggestions's		: Pernyataan
+
+
+Failure Number		: 10
+Source word's		: Settings
+Alleged mistranslation	: Pengaturan
+Suggestions's		: Pengaturan
+
+
+Failure Number		: 11
+Source word's		: Sign Out
+Alleged mistranslation	: Keluar
+Suggestions's		: Keluar
 ```
