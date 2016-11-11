@@ -1,17 +1,17 @@
 ################################################################################
-# 				INSTALLING TRANSARIETMATOR TO YOUR SYSTEM					   #
+# 			INSTALLING CEKSIPO TO YOUR SYSTEM	  	       #
 ################################################################################
 
-# Change directory to transarietmator root
-sudo cp -r transariemator/ /opt/transarietmator
+# Change directory to ceksipo root
+sudo cp -r transariemator/ /opt/ceksipo
 
 # Grant access
-echo "granting access to transarietmator"
-sudo chmod a+x /opt/transarietmator/transariemator.py
+echo "granting access to ceksipo..."
+sudo chmod a+x /opt/ceksipo/ceksipo.py
 
 # Build symlinks for local environment.
 echo "Create symlinks to /usr/bin/:"
-ln -s /opt/transarietmator/transariemator.py /usr/bin/transarietmator
+ln -s /opt/ceksipo/transariemator.py /usr/bin/ceksipo
 
 # Create Login
 echo "Installing process done!"
