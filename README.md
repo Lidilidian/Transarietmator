@@ -9,7 +9,7 @@ When You run this program, the program will run automatically looking for false 
 ## How use:
 - $ git clone https://github.com/Lidilidian/ceksipo.git
 - $ sudo chmod a+x install.sh
-- $ ceksipo -i file.po -s en -t id or $ ceksipo -h // for help isntruction 
+- $ ceksipo -i file.po -m method -s en -t id or $ ceksipo -h // for help isntruction 
 - [Click here][6] for check all supported langguge code.
 
 >### Library Requierement's :
@@ -35,10 +35,16 @@ When You run this program, the program will run automatically looking for false 
 [5]: https://github.com/Lidilidian/ceksipo/blob/master/polib.py  		  "polib library python2.7"
 [6]: https://msdn.microsoft.com/en-us/library/hh456380.aspx               "Language Code"
 
-![Microsoft Translation APIlpful even if it's just a warning for a typo, and please don't be shy to contact me at ([hubungi.aja@gmail.com](mailto:hubungi.aja@gmail.com)).
+(![Microsoft Translation API](https://github.com/Lidilidian/ceksipo/blob/master/Microsoft-logo.png))
 
 >### Thanks to
 - Allah S.W.T and My Family.
 - ([@jayvdb](https://github.com/jayvdb) - Mentor of Besutkode who always give support
 - ([@edawine](https://github.com/edawine)) & ([@chocochino](https://github.com/chocochino))- which give Me suggestion.
 - Every participant of Besutkode and of course all my Friend's in University of Muhammadiyah Jakarta
+
+>### Contributing
+every issue/PR is helpful even if it's just a warning for a typo, and please don't be shy to contact me at ([hubungi.aja@gmail.com](mailto:hubungi.aja@gmail.com)).
+
+>### License
+This Repository are under : [![License](https://img.shields.io/badge/License-LLPL-ff67b1.svg)](https://gist.github.com/Lidilidian/a068055d950e348ea1816f937aac72f0#file-llpl-en-markdown), every related data to Microsoft's is under Microsoft License.
