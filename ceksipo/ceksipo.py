@@ -7,6 +7,7 @@ token = msti.get_access_token(base64.standard_b64decode('bGlkaWxpZGlhbl90cmFuc2x
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", type=str, required=True, dest='file',help='location of fo file [ex: /path/to/file.po]')
+parser.add_argument('-m', required=True, action='store', dest='metode', help='Available method : CheckTranslate, CheckFalseTranslate')
 parser.add_argument('-s', required=True, action='store', dest='source_lang', help='Source Language [ex: en]')
 parser.add_argument('-t', required=True, action='store', dest='translate_to', help='Translate to language [ex: id]')
 parser.add_argument("-v","--version", action='version', version='%(prog)s 1.0')
@@ -25,7 +26,21 @@ def parse_msti_output(xml):
             text.append(elem_text)
     return ' '.join(text)
 
-def english_version():
+def checkTranslation():
+    translateNo = 0
+    valid_entries = [e for e in po if not e.obsolete]
+    for entry in valid_entries:
+        translation_output = msti.translate(token, entry.msgid, args.translate_to, args.source_lang)
+        if translation_output:
+            translateNo += 1
+            print("\n")
+            print("String Number\t\t: {}".format(translateNo))
+            print("Source word's\t\t: {}".format(entry.msgid))
+            print("Suggestions's\t\t: {}".format(parse_msti_output(translation_output)))
+        else:
+            print("Done !")
+
+def missTranslation():
     error_no = 0
     valid_entries = [e for e in po if not e.obsolete]
     for entry in valid_entries:
@@ -38,33 +53,16 @@ def english_version():
             print("Alleged mistranslation\t: {}".format(entry.msgstr))
             print("Suggestions's\t\t: {}".format(parse_msti_output(translation_output)))
         else:
-            print("Done!")
-
-def indo_version():
-    error_no = 0
-    valid_entries = [e for e in po if not e.obsolete]
-    for entry in valid_entries:
-        translation_output = msti.translate(token, entry.msgid, args.translate_to, args.source_lang)
-        if translation_output != entry.msgstr:
-            error_no += 1
-            print("\n")
-            print("Kesalahan nomor  			      \t: {}".format(error_no))
-            print("Kata asli 					: {}".format(entry.msgid))
-            print("Kata yang diduga salah penerjemahan  \t\t: {}".format(entry.msgstr))
-            print("Saran						: {}".format(parse_msti_output(translation_output)))
-        else:
-            print("selesai")
+            print("Done !")
 
 def main():
-
-    program_select_lang = raw_input("Select language | Pilih bahasa [en][id] : ")
        
-    if program_select_lang.lower() == 'en':
-        english_version()
-    elif program_select_lang.lower() == 'id':
-        indo_version()
+    if args.metode == 'CheckTranslate':
+        checkTranslation()
+    elif args.metode == 'CheckFalseTranslate':
+        missTranslation()
     else:
-        print('Your not selecting available word | Anda tidak memilih basaha yang tersedia')
+        print('Your not selecting available method, available method ; CheckTranslate and CheckFalseTranslate')
 
 if __name__ == "__main__":
     main()
